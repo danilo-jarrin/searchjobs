@@ -1,0 +1,19 @@
+# Los datos del usuario NUNCA entran al repo.
+# El skill los guarda en ~/.claude/buscar-trabajo/, fuera de este directorio,
+# pero esto blinda el caso de que alguien los copie aquí por error.
+
+config.md
+mercado.md
+evidencias.md
+brechas.md
+historial.md
+postulaciones/
+cv/
+*.csv
+*.docx
+*.pdf
+!plantillas/*.md
+
+.DS_Store
+.venv/
+__pycache__/
